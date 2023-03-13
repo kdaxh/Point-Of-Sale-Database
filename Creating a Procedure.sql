@@ -1,5 +1,4 @@
 -- PROCEDURE TO POPULATE THE SALES TRANSACTION TABLE
--- FROM '2010-01-01' TO CURRENT
 
 CREATE PROCEDURE dbo.spGenerateSalesTransactions(
 	@StartDate dateTime
@@ -175,7 +174,3 @@ BEGIN
 END
 
 GO
-
-
--- EXECUTING THE STORED PROCEDURE
-EXECUTE dbo.spGenerateSalesTransactions '2010-01-01' 
