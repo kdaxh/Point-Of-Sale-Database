@@ -1,8 +1,11 @@
 --QN 1.
---List a summary of items sold at Mlimani City during the October to December 2021 period. For each item list Item ID,
---Item name, total Quantity, unit price, total amount, and total profit.
+/*
+List a summary of items sold at Mlimani City during the October to December 2021 period. For each item list 
+Item ID, Item name, total Quantity, unit price, total amount, and total profit.
+*/
 
-SELECT A.ItemID, B.ItemDesc, SUM(A.Quantity) AS TotalQuantity, A.UnitPrice, SUM(A.Amount) AS TotalAmount, SUM(A.Profit) AS TotalProfit
+SELECT A.ItemID, B.ItemDesc, SUM(A.Quantity) AS TotalQuantity, A.UnitPrice, SUM(A.Amount) AS TotalAmount
+    ,SUM(A.Profit) AS TotalProfit
 FROM dbo.SaleTnx A
 LEFT OUTER JOIN dbo.Item B ON A.ItemID = B.ItemID
 WHERE A.StoreID = 'MC' AND A.TransDate BETWEEN '2021-10-01' AND '2021-12-31'
