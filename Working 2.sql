@@ -21,6 +21,11 @@ GROUP BY A.ItemID, B.ItemDesc, UnitPrice
 
 
 
+
+
+
+
+
 ------QUESTION 2
 --SELECT A.StoreID, B.StoreName,SUM(A.Amount) TotalRevenue,SUM(A.Profit) TotalProfit 
 --FROM [dbo].[SaleTnx] A
