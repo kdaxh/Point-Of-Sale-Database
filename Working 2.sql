@@ -11,6 +11,41 @@ LEFT OUTER JOIN dbo.Item B ON A.ItemID = B.ItemID
 WHERE A.StoreID = 'MC' AND A.TransDate BETWEEN '2021-10-01' AND '2021-12-31'
 GROUP BY A.ItemID, B.ItemDesc, UnitPrice
 
+--QN 2.
+/*
+List the total revenue and profit for each store during year 2018. For each Store show the Store ID, Store Name,
+Total Revenue, Total profit. Arrange the list in Total profit descending Order.
+*/
+
+
+
+--QN 3.
+/*
+List the most profitable item during year 2016. Show the Item ID, item Name, Total quantity, and Total profit.
+*/
+
+--QN 4.
+/*
+List the total profit for each store on year basis since year 2010. The column headers are Store ID, Store name,
+2010, 2011, 2012, 2013, 2014, 2015, 2016, and 2017, Total Profit . Required to show total profit for each year
+under respective year column header Arrange list to Store ID ascending order.
+*/
+
+--QN 5.
+/*
+List total revenue for each Item on store basis for year 2014 – 2018 period. The column headers are Item ID, Item
+name, Store ID1, store ID2, …,Store ID n, and Total Revenue. Required to show total item revenue for each store
+under respective store ID column header.
+*/
+
+--QN 6.
+/*
+List Total Sales made by each store per day of week during year 2018, The Column headers are Store ID, Store name,
+Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, and Total sales. Arrange list per total sales
+descending order.
+*/
+
+
 
 
 

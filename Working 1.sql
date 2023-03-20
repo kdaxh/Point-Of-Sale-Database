@@ -230,6 +230,6 @@ INNER JOIN ItemCategory C ON B.CategoryID = C.CategoryID
 
 
 --QN 19.
---Generate random sale Transactions  from year 2021 to Current to populate the SaleTnx table by Executing the stored procedure dbo.spGenerateSalesTransactions
+--Generate random sale Transactions  from year 2010 to Current to populate the SaleTnx table by Executing the stored procedure dbo.spGenerateSalesTransactions
 
-EXECUTE dbo.spGenerateSalesTransactions '2021-01-01'
+EXECUTE dbo.spGenerateSalesTransactions '2010-01-01'

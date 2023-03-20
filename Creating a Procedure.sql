@@ -33,7 +33,7 @@ BEGIN
 
 	-- Get all available items
 	INSERT INTO #Item(ItemID)
-	SELECT ITemID 
+	SELECT ItemID 
 	FROM Item
 
 	---Create temporary table for Stores Random number Reference
