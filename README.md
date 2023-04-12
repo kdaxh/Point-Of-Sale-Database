@@ -1,3 +1,3 @@
 "# Point-Of-Sale-Database-POSDB-" 
 
-SQL
+by SQL
