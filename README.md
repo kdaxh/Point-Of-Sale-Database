@@ -1,3 +1,3 @@
-"# Point-Of-Sale-Database-POSDB-" 
+## Point-Of-Sale-Database(POSDB)
 
 by SQL
